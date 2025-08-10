@@ -34,43 +34,33 @@ Simple & Lightweight: Runs in any Python 3 environment without complex setup.
 Installation
 Clone the Repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/network-device-status-monitor.git
 cd network-device-status-monitor
 Set Up a Virtual Environment (Optional but Recommended)
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install Required Libraries
 
-bash
-Copy
-Edit
+
 pip install ping3
 Usage
 Edit the Device List
 Open monitor.py and update the devices list:
 
 python
-Copy
-Edit
+
 devices = ["8.8.8.8", "1.1.1.1", "127.0.0.1"]
 Run the Script
 
-bash
-Copy
-Edit
+
 python monitor.py
 Sample Output
 
-nginx
-Copy
-Edit
+
+
 Checking devices...
 Device 8.8.8.8 is UP
 Device 1.1.1.1 is UP
@@ -78,9 +68,7 @@ Device 127.0.0.1 is UP
 Log File
 All status checks are stored in network_log.txt:
 
-csharp
-Copy
-Edit
+
 2025-08-10 14:30:01 - Device 8.8.8.8 is UP
 2025-08-10 14:30:01 - Device 1.1.1.1 is UP
 Configuration
